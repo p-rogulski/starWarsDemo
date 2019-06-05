@@ -1,0 +1,19 @@
+.hero{
+    padding:20px;
+    border:2px #ccc solid;
+    margin-top:15px;
+    border-radius:8px;
+    box-shadow:2px 2px 2px #ccc;
+}
+
+.hero__details .detail{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:4px;
+}
+
+.detail--name{
+    font-size: 25px;
+    font-weight:bold;
+    padding:20px 0px 20px 0px;
+
+}

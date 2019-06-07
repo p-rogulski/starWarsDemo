@@ -12,7 +12,7 @@ import {HeroesIndexService} from "./heroes.service";
 export class HeroesIndexComponent implements OnInit{
         public heroes;
         constructor(private heroesService:HeroesIndexService){}
-vv
+  
     ngOnInit(){
         this.heroesService.getHeroes()
         .subscribe(heroes => {
